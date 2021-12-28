@@ -17,7 +17,7 @@ export const getLibrary = (provider: any) => {
 }
 
 export const metaMask = new InjectedConnector({
-    supportedChainIds: [1, 3, 4, 5, 42]
+    supportedChainIds: [1, 3, 4, 5, 42, 80001]
 });
 
 export const connectWallet = async(activate,errorMessageCallback)=>{
